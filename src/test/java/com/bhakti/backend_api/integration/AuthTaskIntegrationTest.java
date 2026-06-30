@@ -54,9 +54,9 @@ public class AuthTaskIntegrationTest {
                 )
         );
 
-        user.setRole(
-                Role.ADMIN
-        );
+       user.setRole(
+        "ADMIN"
+);
 
         user =
                 userRepository.save(
